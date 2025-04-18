@@ -4,7 +4,52 @@ title: Page 1
 content: |+
   # Welcome to JavaScript!
 
-  Here is some **information** about *learning* JavaScript.
+  Here is ~~NOT~~ some **information** about *learning* JavaScript.
 
   ***
 
+  Inserting an image:
+
+  Here is a code snippet:
+
+  ```
+  print("Hello world!")
+  ```
+
+  1. apple
+  2. banana
+  3. grapes
+  4. strawberries
+
+  * red
+  * orange
+  * yellow
+  * green
+  * blue
+
+questionGroups:
+  - questions:
+      - id: "1"
+        type: choice
+        content: What is the color of the sky?
+        options:
+          - id: "1"
+            value: Blue
+          - id: "2"
+            value: Yellow
+          - id: "3"
+            value: Green
+  - questions:
+      - id: "1"
+        type: multiple
+        content: What is your name?
+  - questions:
+      - id: "1"
+        type: string
+        content: What is the state where you live?
+        options:
+          - id: "1"
+            value: Idaho
+            isCorrect: true
+          - id: "2"
+            value: New Jersey
